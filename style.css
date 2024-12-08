@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: papayawhip;
+}
+
+audio {
+  border: solid black;
+  border-radius: 50px;
+}
