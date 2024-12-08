@@ -6,3 +6,15 @@ audio {
   border: solid black;
   border-radius: 50px;
 }
+
+.sec1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.sec2 {
+  position: absolute;
+  left: 500px;
+  top: 0px;
+}
