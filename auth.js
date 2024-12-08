@@ -1,0 +1,1 @@
+const verifiedUsers = ["AlexW", "MaxK"];
