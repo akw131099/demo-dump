@@ -14,9 +14,18 @@ function handleClickPapaya() {
   document.body.style.backgroundColor = "papayawhip";
 }
 
-// const buttonColour = document.getElementById("button-colour");
-// buttonColour.addEventListener("click", handleClickColour);
+const greySelector = document.getElementById("grey-selector");
 
-// function handleClickColour() {
-//   document.body.style.backgroundColor = "blue";
-// }
+greySelector.addEventListener("click", handleClickGrey);
+
+function handleClickGrey() {
+  document.body.style.backgroundColor = "grey";
+}
+
+const whiteSelector = document.getElementById("white-selector");
+
+whiteSelector.addEventListener("click", handleClickWhite);
+
+function handleClickWhite() {
+  document.body.style.backgroundColor = "white";
+}
