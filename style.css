@@ -1,5 +1,17 @@
 body {
   background: papayawhip;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
 }
 
 audio {
@@ -7,26 +19,42 @@ audio {
   border-radius: 50px;
 }
 
-#colour-selector {
-  position: absolute;
-  top: 0px;
-  right: 10px;
+footer {
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
 }
 
-.sec1 {
-  position: absolute;
-  left: 5px;
-  top: 0px;
+#papayawhip-selector,
+#white-selector,
+#cyan-selector,
+#grey-selector {
+  display: inline;
+  padding: 5rem;
 }
+/* @media (min-width: 600px) {
+  .sec1 {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+  }
 
-.sec2 {
-  position: absolute;
-  left: 550px;
-  top: 0px;
-}
+  .sec2 {
+    position: absolute;
+    left: 550px;
+    top: 0px;
+  }
+} */
 
-.sec3 {
-  position: absolute;
-  top: 0px;
-  right: 5px;
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: grey;
+  }
+  footer {
+    background-color: lightgray;
+  }
 }
