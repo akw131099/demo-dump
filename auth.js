@@ -1,1 +1,0 @@
-const verifiedUsers = ["AlexW", "MaxK"];
