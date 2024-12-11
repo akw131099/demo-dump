@@ -23,7 +23,7 @@ footer {
   height: 2.5rem;
   display: flex;
   justify-content: space-evenly;
-  background-color: white;
+  background-color: lightgrey;
 }
 
 .selector {
@@ -47,8 +47,5 @@ footer {
 @media screen and (prefers-color-scheme: dark) {
   body {
     background-color: grey;
-  }
-  footer {
-    background-color: lightgray;
   }
 }
