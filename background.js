@@ -29,3 +29,11 @@ whiteSelector.addEventListener("click", handleClickWhite);
 function handleClickWhite() {
   document.body.style.backgroundColor = "white";
 }
+
+const peruSelector = document.getElementById("peru-selector");
+
+peruSelector.addEventListener("click", handleClickPeru);
+
+function handleClickPeru() {
+  document.body.style.backgroundColor = "peru";
+}

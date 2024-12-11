@@ -1,8 +1,5 @@
 body {
   background: papayawhip;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
 }
 
 #page-container {
@@ -29,12 +26,9 @@ footer {
   background-color: white;
 }
 
-#papayawhip-selector,
-#white-selector,
-#cyan-selector,
-#grey-selector {
+.selector {
   display: inline;
-  padding: 5rem;
+  padding: 0.5rem;
 }
 /* @media (min-width: 600px) {
   .sec1 {
